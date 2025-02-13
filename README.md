@@ -63,10 +63,10 @@ This project automates the provisioning and configuration of an AWS EC2 instance
 Feel free to fork this repository and make improvements! Contributions are welcome.
 
 ## License
-This project is licensed under the **MIT License**.
+This project is open-source.
 
 ## My Cloud Journey 🌩️
 > "Every great cloud architect was once a beginner who never stopped learning. Keep building! 🚀"
 
- 📢 Follow my journey on [LinkedIn](www.linkedin.com/in/aniket1308) & Star ⭐ this repo if you found it useful!
+ 📢 Follow my journey on [LinkedIn](https://www.linkedin.com/in/aniket1308/) & Star ⭐ this repo if you found it useful!
 
