@@ -1,0 +1,24 @@
+- name: Setup LAMP Stack
+  hosts: web
+  become: yes
+  tasks:
+    - name: Install Apache and MySQL
+      apt:
+        name:
+          - apache2
+          - mysql-server
+        state: present
+        update_cache: yes
+
+    - name: Install PHP and required extensions
+      apt:
+        name:
+          - php
+          - php-mysql
+          - libapache2-mod-php
+        state: present
+
+    - name: Restart Apache
+      service:
+        name: apache2
+        state: restarted
